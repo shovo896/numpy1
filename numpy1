@@ -1,0 +1,21 @@
+import numpy as np
+
+# Create a NumPy array
+data = np.array([10, 20, 30, 40, 50])
+
+# Perform basic operations
+squared = data ** 2
+doubled = data * 2
+
+# Calculate statistics
+mean = np.mean(data)
+std_dev = np.std(data)
+sum_total = np.sum(data)
+
+# Print results
+print("Original Data:", data)
+print("Squared Data:", squared)
+print("Doubled Data:", doubled)
+print("Mean:", mean)
+print("Standard Deviation:", std_dev)
+print("Sum:", sum_total)
