@@ -1,0 +1,20 @@
+import numpy as np
+array1 = np.array([[1,2,3,4],
+                  [5,6,7,8],
+                   [9,10,11,12]])
+array2=np.zeros((2,3,4))
+print(array1)
+print("\n3-d array:")
+print(array2)
+numpy_array=np.full((2,2),5)
+print("Array:",numpy_array)
+array4=np.random.rand(2,2)
+print(array4)
+array5=np.random.rand(2,2,2)
+print(array5)
+array6=np.empty((2,2,2))
+print(array6)
+array7=np.empty((2,2))
+print(array7)
+print(array1.dtype)
+print(array7.dtype)
