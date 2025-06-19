@@ -18,24 +18,16 @@ array6=np.transpose(array5)
 print("\n Transposed array :\n",array6)
 
 
-result1=array1< array2
-print(" array1 < array2 :",result1)
-result2 = array1 > array2
-print(" array1 > array2 : ",result2)
-result3=array1==array2
-print("array1 == array2: ",result3)
+arr_sqrt=np.sqrt(array2)
+print(" \nSquare root of second array:\n",arr_sqrt)
 
-x1 = np.array([True,True,False])
-x2=np.array([False,True ,False])
-print(np.logical_and(x1,x2))
-
-print(np.logical_or(x1,x2))
-print(np.logical_not(x1))
+mean_marks=np.mean(array1)
+print(" mean ", mean_marks)
+median_marks=np.median(array4)
+print(" Median", median_marks)
+min_marks=np.min(array5)
+print(" Minimum marks : " ,min_marks)
 
 
-angles=np.array([0.1,2])
-print("Angles:",angles)
-sine_values=np.sin(angles)
-print("Sine Values : ",sine_values)
-inverse_sine=np.arcsin(angles)
-print(" Inverse Sine Values : ",inverse_sine)
+loaded_data=np.loadtxt('array4.txt')
+print(loaded_data)
