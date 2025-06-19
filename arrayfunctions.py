@@ -18,16 +18,4 @@ array6=np.transpose(array5)
 print("\n Transposed array :\n",array6)
 
 
-arr_sqrt=np.sqrt(array2)
-print(" \nSquare root of second array:\n",arr_sqrt)
 
-mean_marks=np.mean(array1)
-print(" mean ", mean_marks)
-median_marks=np.median(array4)
-print(" Median", median_marks)
-min_marks=np.min(array5)
-print(" Minimum marks : " ,min_marks)
-
-
-loaded_data=np.loadtxt('array4.txt')
-print(loaded_data)
