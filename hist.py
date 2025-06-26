@@ -1,7 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-# create an array of data
 data = np.array([5, 10, 15, 18, 20])
 
 # create bin to set the interval
